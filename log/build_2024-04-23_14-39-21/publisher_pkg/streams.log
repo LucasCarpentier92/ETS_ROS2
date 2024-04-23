@@ -1,0 +1,37 @@
+[1.932s] Invoking command in '/home/user/ros2_ws/src/publisher_pkg': PYTHONPATH=/home/user/ros2_ws/build/publisher_pkg/prefix_override:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/user/ros2_ws/build/publisher_pkg/build install --record /home/user/ros2_ws/build/publisher_pkg/install.log --single-version-externally-managed
+[2.458s] running egg_info
+[2.458s] creating ../../build/publisher_pkg/publisher_pkg.egg-info
+[2.459s] writing ../../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO
+[2.459s] writing dependency_links to ../../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt
+[2.459s] writing entry points to ../../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt
+[2.460s] writing requirements to ../../build/publisher_pkg/publisher_pkg.egg-info/requires.txt
+[2.460s] writing top-level names to ../../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt
+[2.460s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[2.463s] reading manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[2.464s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[2.465s] running build
+[2.465s] running build_py
+[2.466s] creating /home/user/ros2_ws/build/publisher_pkg/build
+[2.466s] creating /home/user/ros2_ws/build/publisher_pkg/build/lib
+[2.466s] creating /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg
+[2.467s] copying publisher_pkg/__init__.py -> /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg
+[2.468s] copying publisher_pkg/simple_publisher.py -> /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg
+[2.468s] running install
+[2.469s] running install_lib
+[2.471s] creating /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[2.471s] copying /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg/__init__.py -> /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[2.472s] copying /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg/simple_publisher.py -> /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[2.472s] byte-compiling /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/__init__.py to __init__.cpython-310.pyc
+[2.473s] byte-compiling /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/simple_publisher.py to simple_publisher.cpython-310.pyc
+[2.474s] running install_data
+[2.474s] creating /home/user/ros2_ws/install/publisher_pkg/share/ament_index
+[2.474s] creating /home/user/ros2_ws/install/publisher_pkg/share/ament_index/resource_index
+[2.474s] creating /home/user/ros2_ws/install/publisher_pkg/share/ament_index/resource_index/packages
+[2.475s] copying resource/publisher_pkg -> /home/user/ros2_ws/install/publisher_pkg/share/ament_index/resource_index/packages
+[2.475s] copying package.xml -> /home/user/ros2_ws/install/publisher_pkg/share/publisher_pkg
+[2.475s] running install_egg_info
+[2.477s] Copying ../../build/publisher_pkg/publisher_pkg.egg-info to /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info
+[2.478s] running install_scripts
+[2.514s] Installing simple_pulisher script to /home/user/ros2_ws/install/publisher_pkg/lib/publisher_pkg
+[2.515s] writing list of installed files to '/home/user/ros2_ws/build/publisher_pkg/install.log'
+[2.601s] Invoked command in '/home/user/ros2_ws/src/publisher_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/publisher_pkg/prefix_override:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/user/ros2_ws/build/publisher_pkg/build install --record /home/user/ros2_ws/build/publisher_pkg/install.log --single-version-externally-managed
