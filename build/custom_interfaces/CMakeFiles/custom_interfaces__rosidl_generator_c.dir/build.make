@@ -69,57 +69,57 @@ include CMakeFiles/custom_interfaces__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/custom_interfaces__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/custom_interfaces/msg/age.h: rosidl_adapter/custom_interfaces/msg/Age.idl
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h: rosidl_adapter/custom_interfaces/srv/MyCustomServiceMessage.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros2_ws/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/custom_interfaces/msg/detail/age__functions.h: rosidl_generator_c/custom_interfaces/msg/age.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/msg/detail/age__functions.h
+rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.h: rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.h
 
-rosidl_generator_c/custom_interfaces/msg/detail/age__struct.h: rosidl_generator_c/custom_interfaces/msg/age.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/msg/detail/age__struct.h
+rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__struct.h: rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__struct.h
 
-rosidl_generator_c/custom_interfaces/msg/detail/age__type_support.h: rosidl_generator_c/custom_interfaces/msg/age.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/msg/detail/age__type_support.h
+rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__type_support.h: rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__type_support.h
 
-rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c: rosidl_generator_c/custom_interfaces/msg/age.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c
+rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c: rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c
 
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/flags.make
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o: rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ros2_ws/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o -MF CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o.d -o CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o -c /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o: rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ros2_ws/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o -MF CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o.d -o CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o -c /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c
 
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c > CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.i
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c > CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.i
 
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c -o CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.s
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c -o CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.s
 
 # Object files for target custom_interfaces__rosidl_generator_c
 custom_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o"
+"CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o"
 
 # External object files for target custom_interfaces__rosidl_generator_c
 custom_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
-libcustom_interfaces__rosidl_generator_c.so: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o
+libcustom_interfaces__rosidl_generator_c.so: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o
 libcustom_interfaces__rosidl_generator_c.so: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/build.make
 libcustom_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcustom_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
@@ -135,11 +135,11 @@ CMakeFiles/custom_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/custom_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/custom_interfaces__rosidl_generator_c.dir/clean
 
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/msg/age.h
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/msg/detail/age__functions.h
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/msg/detail/age__struct.h
-CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/msg/detail/age__type_support.h
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.h
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__struct.h
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__type_support.h
+CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/custom_interfaces/srv/my_custom_service_message.h
 	cd /home/user/ros2_ws/build/custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_ws/src/custom_interfaces /home/user/ros2_ws/src/custom_interfaces /home/user/ros2_ws/build/custom_interfaces /home/user/ros2_ws/build/custom_interfaces /home/user/ros2_ws/build/custom_interfaces/CMakeFiles/custom_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_interfaces__rosidl_generator_c.dir/depend
 
