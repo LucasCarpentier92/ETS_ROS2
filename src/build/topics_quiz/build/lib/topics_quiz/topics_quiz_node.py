@@ -10,7 +10,7 @@ from rclpy.qos import ReliabilityPolicy, QoSProfile
 class Topics_quiz_node(Node):
 
     def __init__(self):
-        super().__init__('exercise31')
+        super().__init__('topics_quiz_node')
         self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
         self.subscriber = self.create_subscription(Odometry, 'odom',self.odom_callback, 10)
         self.timer = 0.5
@@ -27,24 +27,20 @@ class Topics_quiz_node(Node):
             self.target_yaw = self.first_yaw + 1.57
 
         if not self.rotated:
-            if abs(yaw - self.target_yaw) > 0.1:  
+            distance = abs(yaw - self.target_yaw)
+            if distance > 0.1:
                 self.do_rotate()
             else:
-                self.rotated = True
                 self.stop_rotation()
-        elif self.rotated:
-            self.go_forward()
             
     def go_forward(self):
         twist = Twist()
         twist.linear.x = 0.5
         self.publisher_.publish(twist)
-        self.rotated = True
 
     def do_rotate(self):
-        angle = 0.5
         twist = Twist()
-        twist.angular.z = angle
+        twist.angular.z = self.target_yaw
         self.publisher_.publish(twist)
         self.rotated = True
 
